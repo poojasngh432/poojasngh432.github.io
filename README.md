@@ -15,9 +15,9 @@
   
 [![Visits Badge](https://badges.pufler.dev/visits/poojasngh432/poojasngh432)](https://github.com/poojasngh432)
 [![Twitter Badge](https://img.shields.io/badge/Twitter-Profile-informational?style=flat&logo=twitter&logoColor=white&color=1CA2F1)](https://twitter.com/droidspiration)
-[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/singhpooja432/)
-[![Github Badge](https://img.shields.io/badge/Github-Profile-informational?style=flat&logo=github&logoColor=white&color=0D76A8)](https://github.com/poojasngh432)
-[![Gmail Badge](https://img.shields.io/badge/Gmail-Profile-informational?style=flat&logo=gmail&logoColor=white&color=0D76A8)](mailto:poojasngh432@gmail.com)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=blue)](https://www.linkedin.com/in/singhpooja432/)
+[![Github Badge](https://img.shields.io/badge/Github-Profile-informational?style=flat&logo=github&logoColor=white&color=purple)](https://github.com/poojasngh432)
+[![Gmail Badge](https://img.shields.io/badge/Gmail-Mail-informational?style=flat&logo=gmail&logoColor=white&color=red)](mailto:poojasngh432@gmail.com)
 
 <br />
 <br />
