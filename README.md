@@ -19,7 +19,7 @@ Link to my [resume](https://drive.google.com/file/d/1m9pzL_MINl0ePK8Fp-uRHZa9Ioa
 <br />
 <br />
   
-## Languages and Tools:
+## Languages and Tools
 
 <a href="https://kotlinlang.org/" target="_blank"><img align="left" alt="Kotlin" width="26px" src="https://github.com/poojasngh432/OrganizingRepos/blob/main/kotlin.png" /></a>
 <a href="https://www.java.com/en/" target="_blank"><img align="left" alt="Java" width="26px" src="https://github.com/poojasngh432/OrganizingRepos/blob/main/java.png" /></a>
@@ -34,25 +34,25 @@ Link to my [resume](https://drive.google.com/file/d/1m9pzL_MINl0ePK8Fp-uRHZa9Ioa
 
 <br>
 
-<a href="https://github.com/poojasngh432/ReelsFeature">
-  <img align="center" style="margin:0.5rem" src="https://github-readme-stats.vercel.app/api/pin/?username=poojasngh432&repo=ReelsFeature&title_color=ffffff&text_color=c9cacc&icon_color=4AB197&bg_color=1A2B34" />
+<div>
+   <a href="https://github.com/poojasngh432/ReelsFeature">
+  <img align="top" style="margin-right:0.5rem" src="https://github-readme-stats.vercel.app/api/pin/?username=poojasngh432&repo=ReelsFeature&title_color=ffffff&text_color=c9cacc&icon_color=4AB197&bg_color=1A2B34" />
+</a> &nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="https://github.com/poojasngh432/Shifty">
+  <img align="top" style="margin:0.5rem" src="https://github-readme-stats.vercel.app/api/pin/?username=poojasngh432&repo=Shifty&title_color=ffffff&text_color=c9cacc&icon_color=4AB197&bg_color=1A2B34" />
 </a>
-
-<br>
-
+<div>
+  <br>
+<div>
 <a href="https://github.com/poojasngh432/Woofsy-Dog-Breeds-App">
-  <img align="center" style="margin:0.5rem" src="https://github-readme-stats.vercel.app/api/pin/?username=poojasngh432&repo=Woofsy-Dog-Breeds-App&title_color=ffffff&text_color=c9cacc&icon_color=4AB197&bg_color=1A2B34" />
+  <img align="top" style="margin:0.5rem" src="https://github-readme-stats.vercel.app/api/pin/?username=poojasngh432&repo=Woofsy-Dog-Breeds-App&title_color=ffffff&text_color=c9cacc&icon_color=4AB197&bg_color=1A2B34" />
+</a> &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/poojasngh432/TopGithubRepo">
+  <img align="top" style="margin:0.5rem" src="https://github-readme-stats.vercel.app/api/pin/?username=poojasngh432&repo=TopGithubRepo&title_color=ffffff&text_color=c9cacc&icon_color=4AB197&bg_color=1A2B34" />
 </a>
 
 <br>
-
-<a href="https://github.com/poojasngh432/Shifty">
-  <img align="center" style="margin:0.5rem" src="https://github-readme-stats.vercel.app/api/pin/?username=poojasngh432&repo=Shifty&title_color=ffffff&text_color=c9cacc&icon_color=4AB197&bg_color=1A2B34" />
-</a>
-
-<a href="https://github.com/poojasngh432/TopGithubRepo">
-  <img align="center" style="margin:0.5rem" src="https://github-readme-stats.vercel.app/api/pin/?username=poojasngh432&repo=TopGithubRepo&title_color=ffffff&text_color=c9cacc&icon_color=4AB197&bg_color=1A2B34" />
-</a>
+<br>
 
 ## &#x1f4c8; GitHub Stats
 
