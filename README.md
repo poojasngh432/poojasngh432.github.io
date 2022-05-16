@@ -57,10 +57,13 @@ Link to my [resume](https://drive.google.com/file/d/1m9pzL_MINl0ePK8Fp-uRHZa9Ioa
 ## &#x1f4c8; GitHub Stats
 
 <br>
-  
-[![Pooja's Github Stats](https://github-readme-stats.vercel.app/api?username=poojasngh432&include_all_commits=true&count_private=true&show_icons=true&line_height=20&title_color=FFFFFF&icon_color=FFFFFF&text_color=FFFFFF&bg_color=0D1117)](https://github.com/anuraghazra/github-readme-stats)
-![Pooja's Language Stats](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=poojasngh432&layout=compact&langs_count=8&hide_border=true)
-<br />
+<a href="https://github.com/poojasngh432">
+  <img align="center" style="margin:0.5rem" src="https://github-readme-stats.vercel.app/api?username=poojasngh432&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=4AB097&bg_color=1A2B34" alt="Pooja's GitHub Stats" />
+</a> &nbsp;&nbsp;&nbsp;&nbsp;
+
+  <a href="https://github.com/poojasngh432">
+  <img align="center" style="margin:0.5rem" src="https://github-readme-stats.vercel.app/api/top-langs/?username=poojasngh432&hide=html,css&title_color=ffffff&text_color=c9cacc&icon_color=4AB197&bg_color=1A2B34" />
+</a>
 
 ## 💼 Skills
 
