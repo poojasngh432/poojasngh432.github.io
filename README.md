@@ -2,6 +2,8 @@
 **poojasngh432/poojasngh432** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
+[![Pooja's GitHub Banner](https://github.com/poojasngh432/OrganizingRepos/blob/main/Banners%20(1).png)](https://www.linkedin.com/in/singhpooja432/)
+
 ## Hi, I'm [Pooja!](https://www.linkedin.com/in/singhpooja432/) <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="26px">
 
 <a href="https://www.linkedin.com/in/singhpooja432/" target="_blank"><img align="left" alt="Pooja S | LinkedIn" width="22px" src="https://github.com/poojasngh432/OrganizingRepos/blob/main/linkedin.png" />
@@ -10,6 +12,11 @@
 <a href="mailto:poojasngh432@gmail.com">
   <img align="left" width="26px" src="https://github.com/poojasngh432/OrganizingRepos/blob/main/gmail.png" />
 </a>
+  
+[![Visits Badge](https://badges.pufler.dev/visits/poojasngh432/poojasngh432)](https://github.com/poojasngh432)
+[![Twitter Badge](https://img.shields.io/badge/Twitter-Profile-informational?style=flat&logo=twitter&logoColor=white&color=1CA2F1)](https://twitter.com/droidspiration)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/singhpooja432/)
+
 <br />
 <br />
   
