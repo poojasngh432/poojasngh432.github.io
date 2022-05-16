@@ -2,17 +2,26 @@
 **poojasngh432/poojasngh432** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
-## Hi, I'm Pooja! 👋
+## Hi, I'm [Pooja!](https://www.linkedin.com/in/singhpooja432/) <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="26px">
 
 <a href="https://www.linkedin.com/in/singhpooja432/" target="_blank"><img align="left" alt="Pooja S | LinkedIn" width="22px" src="https://github.com/poojasngh432/OrganizingRepos/blob/main/linkedin.png" />
+<a href="https://twitter.com/droidspiration" target="_blank"><img align="left" alt="Pooja | Twitter" width="22px" src="https://github.com/poojasngh432/OrganizingRepos/blob/main/twitter.png" />
 <a href="https://github.com/poojasngh432" target="_blank"><img align="left" alt="Pooja | Github" width="22px" src="https://github.com/poojasngh432/OrganizingRepos/blob/main/github.png" />
+<a href="mailto:poojasngh432@gmail.com">
+  <img align="left" width="26px" src="https://github.com/poojasngh432/OrganizingRepos/blob/main/gmail.png" />
+</a>
 
 <br />
+<br />
+
+### About Me
+I'm a native Android Developer with 3 years of experience in Java, Android and Kotlin. I have worked in product based startups and have experience in delivering complex features in apps with big user bases.
+[Link to my resume: ](https://drive.google.com/file/d/1m9pzL_MINl0ePK8Fp-uRHZa9IoaJsS3z/view?usp=sharing)
+  
 <br />
 <br />
   
 ### Languages and Tools:
-
 
 <a href="https://kotlinlang.org/" target="_blank"><img align="left" alt="Kotlin" width="26px" src="https://github.com/poojasngh432/OrganizingRepos/blob/main/kotlin.png" /></a>
 <a href="https://www.java.com/en/" target="_blank"><img align="left" alt="Java" width="26px" src="https://github.com/poojasngh432/OrganizingRepos/blob/main/java.png" /></a>
