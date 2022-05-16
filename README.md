@@ -4,8 +4,8 @@
 
 ## Hi, I'm Pooja! 👋
 
-<a href="https://www.linkedin.com/in/singhpooja432/" target="_blank"><img align="left" alt="Pooja S | LinkedIn" width="22px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/linkedin.svg" />
-<a href="https://github.com/poojasngh432" target="_blank"><img align="left" alt="Pooja | Github" width="22px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/behance.svg" />
+<a href="https://www.linkedin.com/in/singhpooja432/" target="_blank"><img align="left" alt="Pooja S | LinkedIn" width="22px" src="https://github.com/poojasngh432/OrganizingRepos/blob/main/linkedin.png" />
+<a href="https://github.com/poojasngh432" target="_blank"><img align="left" alt="Pooja | Github" width="22px" src="https://github.com/poojasngh432/OrganizingRepos/blob/main/GitHub-Mark-120px-plus.png" />
 
 <br />
 <br />
@@ -14,11 +14,12 @@
 ### Languages and Tools:
 
 
-<a href="https://kotlinlang.org/" target="_blank"><img align="left" alt="Kotlin" width="26px" src="https://user-images.githubusercontent.com/58732951/123423005-48b19700-d5bf-11eb-8701-df541d40f255.png" /></a>
-<a href="https://www.java.com/en/" target="_blank"><img align="left" alt="Java" width="26px" src="https://user-images.githubusercontent.com/58732951/123422203-24a18600-d5be-11eb-93d0-cfbd687e3f54.png" /></a>
-<a href="https://www.cprogramming.com/" target="_blank"> <img align="left" alt="C" width="26px" src="https://user-images.githubusercontent.com/17773218/56295546-32a81200-60ea-11e9-8761-0b726b20fd51.png"/> </a>
-<a href="https://git-scm.com/" target="_blank"> <img align="left" alt="Git" width="26px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/python-5.svg?raw=true"/> </a>
-<img align="left" alt="GitHub" width="26px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/github.svg" />
+<a href="https://kotlinlang.org/" target="_blank"><img align="left" alt="Kotlin" width="26px" src="https://github.com/poojasngh432/OrganizingRepos/blob/main/kotlin.png" /></a>
+<a href="https://www.java.com/en/" target="_blank"><img align="left" alt="Java" width="26px" src="https://github.com/poojasngh432/OrganizingRepos/blob/main/java.png" /></a>
+<a href="https://www.cprogramming.com/" target="_blank"> <img align="left" alt="C" width="26px" src="https://github.com/poojasngh432/OrganizingRepos/blob/main/c.png"/> </a>
+<a href="https://git-scm.com/" target="_blank"> <img align="left" alt="Git" width="26px" src="https://github.com/poojasngh432/OrganizingRepos/blob/main/Git-Icon-Black.png"/> </a>
+<a href="https://www.mysql.com/" target="_blank"> <img align="left" alt="SQL" width="26px" src="https://github.com/poojasngh432/OrganizingRepos/blob/main/database.png"/> </a>
+<img align="left" alt="GitHub" width="26px" src="https://github.com/poojasngh432/OrganizingRepos/blob/main/GitHub-Mark-120px-plus.png" />
 
 <br />
 <br />
