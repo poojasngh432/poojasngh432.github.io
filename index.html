@@ -13,13 +13,13 @@
             color: #333;
         }
         header {
-            background-color: #008cba;
+            background-color: #bbd4f2;
             color: white;
             padding: 10px 0;
             text-align: center;
         }
         nav {
-            background-color: #333;
+            background-color: #206eae;;
             overflow: hidden;
         }
         nav a {
@@ -40,13 +40,19 @@
             margin: auto;
         }
         h1, h2 {
-            color: #008cba;
+            color: #2288e1;
+        }
+        header h1 {
+    color: #2288e1; /* Or any color that contrasts with the background */
+}
+header p {
+    color: #2288e1;
         }
         .skills, .experience, .projects, .education, .contact {
             margin-bottom: 40px;
         }
         .projects a, .contact a {
-            color: #008cba;
+            color: #2288e1;
             text-decoration: none;
         }
         footer {
@@ -55,13 +61,30 @@
             background-color: #333;
             color: white;
         }
+        .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about-photo img {
+    max-width: 150px; /* Adjust the size as needed */
+    border-radius: 50%; /* This will make the image circular */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow effect */
+}
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Pooja Singh</h1>
-    <p>Android Developer | Software Engineer</p>
+    <h1>POOJA SINGH</h1>
+    <p>NATIVE ANDROID DEVELOPER | SOFTWARE ENGINEER | JAVA | KOTLIN</p>
 </header>
 
 <nav>
@@ -116,18 +139,19 @@
         <h2>Work Experience</h2>
         <div class="experience">
             <h3>Software Engineer</h3>
-            <p><i>Legion Technologies - Palo Alto, California</i> Oct 2022 - Nov 2023</p>
+            <p><i>Legion Technologies - Palo Alto, California </i> | Oct 2022 - Nov 2023</p>
             <ul>
-                <li>Enhanced chat functionality by adding attachment support, improving user experience and reducing customer-reported issues by 30%.</li>
-                <li>Resolved critical issues in Legion InstantPay, significantly boosting a major revenue source.</li>
+                <li>Enhanced chat functionality by adding attachment support, and enabling view in full-screen mode, improving user experience and reducing customer-reported issues by 30%.
+                    </li>
+                <li>Resolved critical issues in Legion InstantPay for instant payouts using WageStream, including deep linking to Chrome and back to the app, significantly boosting a major revenue source.</li>
             </ul>
         </div>
         <div class="experience">
             <h3>Software Development Engineer </h3>
             <p><i>Tata 1mg - Gurgaon, Haryana</i> | May 2021 - Sep 2022</p>
             <ul>
-                <li>Implemented modularization and unit testing, reducing app size by 9% and improving architecture.</li>
-                <li>Developed scalable custom UI components, leading to a 70% reduction in design inconsistencies.</li>
+                <li>Implemented Multiple modularization, Unit testing, and submodule repositories, resulting in an improved architecture and a reduction in app size by 9%.</li>
+                <li>Developed scalable custom UI components adhering to Design Language System standards, leading to an increase in team productivity and a reduction in design inconsistencies by 70%. </li>
             </ul>
         </div>
         <div class="experience">
@@ -135,15 +159,15 @@
             <p><i> Krishi Network - Gurgaon, Haryana </i> | Dec 2020 - May 2021</p>
             <p></p>
             <ul>
-                <li>Fixed Deferred Deeplinking issues, improving referrals and onboarding new users.</li>
-                <li>Built a Weather module using MVVM and Kotlin, providing real-time weather updates.</li>
+                <li>Fixed issues with Deferred Deeplinking functionality, improving referrals and onboarding of new users.</li>
+                <li>Built a Weather module using MVVM and Kotlin, delivering accurate and real-time weather updates to users.</li>
             </ul>
         </div>
         <div class="experience">
             <h3>Associate Software Engineer - ChannelPlay</h3>
             <p>Gurgaon, Haryana | May 2019 – July 2020</p>
             <ul>
-                <li>Reduced data synchronization time by 71% using asynchronous network calls and multithreading.</li>
+                <li>Reduced data synchronization time with the server from 7s to 2s, achieving a 71% reduction using Asynchronous network calls and Multithreading.</li>
             </ul>
         </div>
     </section>
@@ -151,7 +175,7 @@
     <section id="projects">
         <h2>Projects</h2>
         <ul>
-            <li><a href="https://github.com/poojasngh432/Shifty" target="_blank">Open Shifts Grabber App</a>: An app that checks for open shifts in the background using WorkManager, Service, and RESTful APIs.</li>
+            <li><a href="https://github.com/poojasngh432/Shifty" target="_blank">Open Shifts Grabber App</a>: An app that checks for open shifts in the background and grabs all open shifts for the logged-in user, using WorkManager, Service, and RESTful APIs.</li>
             <li><a href="https://play.google.com/store/apps/details?id=com.dogbreeds.woofsyapp" target="_blank">Woofsy</a>: An app that shows data of all dog breeds.</li>
             <li><a href="https://github.com/poojasngh432/ReelsFeature" target="_blank">Reels Clone</a>: Reels feature in Instagram using Viewpager, Dagger Hilt, and Exoplayer.</li>
         </ul>
