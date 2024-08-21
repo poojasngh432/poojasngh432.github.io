@@ -15,7 +15,6 @@
 ### About Me
 I'm a native Android Developer with 3 years of experience in Java, Android and Kotlin. I have worked in product based startups and have experience in delivering complex features in apps with big user bases.
 <br />
-Link to my [resume](https://drive.google.com/file/d/1m9pzL_MINl0ePK8Fp-uRHZa9IoaJsS3z/view?usp=sharing)
 <br />
 <br />
   
