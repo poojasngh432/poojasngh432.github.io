@@ -25,6 +25,19 @@ header {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+header h1 {
+    color: #1a3b4d;  /* Darker shade of the primary color */
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
+}
+
+header p {
+    color: #1a3b4d;  /* Darker shade of the primary color */
+    font-weight: 500;
+    margin: 0.5rem 0;
+}
+
 nav {
     background-color: var(--primary-color);
     padding: 1rem 0;
@@ -61,6 +74,12 @@ section {
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
+section h2 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 h1, h2 {
     color: var(--primary-color);
 }
@@ -86,35 +105,107 @@ h1, h2 {
     padding: 1rem 0;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
+    align-items: stretch;
 }
 
 .project-card {
+    width: 300px;
     min-width: 300px;
+    max-width: 300px;
     background: var(--card-bg);
-    border-radius: 8px;
+    border-radius: 12px;
     padding: 1.5rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     scroll-snap-align: start;
+    border: 2px solid var(--accent-color);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    border-color: var(--primary-color);
 }
 
 .project-card h3 {
     color: var(--primary-color);
     margin-top: 0;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.project-card p {
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    flex-grow: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.project-card p.collapsed {
+    max-height: 4.8em; /* Shows 3 lines of text */
+    overflow: hidden;
+}
+
+.project-card p.collapsed::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2em;
+    background: linear-gradient(transparent, var(--card-bg));
+}
+
+.expand-btn {
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+    transition: color 0.3s ease;
 }
 
 .tech-stack {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+    overflow-y: auto;
 }
 
 .tech-tag {
     background: var(--accent-color);
     color: var(--primary-color);
-    padding: 0.25rem 0.75rem;
-    border-radius: 15px;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
     font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.tech-tag:hover {
+    background: var(--primary-color);
+    color: white;
+    transform: translateY(-2px);
+}
+
+.project-card .btn {
+    margin-top: 0.5rem;
+    width: auto;
+    min-width: 150px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .achievements-grid {
@@ -178,6 +269,38 @@ h1, h2 {
     font-size: 0.9rem;
 }
 
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--accent-color);
+    color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+}
+
+.social-link:hover {
+    background: var(--primary-color);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.social-link i {
+    font-size: 1.3rem;
+}
+
 @media (max-width: 768px) {
     .about-container {
         flex-direction: column;
@@ -190,5 +313,15 @@ h1, h2 {
     
     .project-card {
         min-width: 100%;
+    }
+    
+    .social-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .social-link {
+        width: 200px;
+        justify-content: center;
     }
 }

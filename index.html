@@ -172,15 +172,20 @@
     </footer>
 
     <div class="view-counter">
-        Views: <span id="viewCount">0</span>
+        Views: <span id="viewCount">Loading...</span>
     </div>
 
     <script>
-        // Simple view counter using localStorage
-        let viewCount = localStorage.getItem('viewCount') || 0;
-        viewCount = parseInt(viewCount) + 1;
-        localStorage.setItem('viewCount', viewCount);
-        document.getElementById('viewCount').textContent = viewCount;
+        // Using Hit Counter API
+        fetch('https://api.countapi.xyz/hit/poojasngh432.github.io/visits')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('viewCount').textContent = data.value;
+            })
+            .catch(error => {
+                console.error('Error fetching view count:', error);
+                document.getElementById('viewCount').textContent = 'Error';
+            });
     </script>
 </body>
 </html>

@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - Pooja Singh</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <header>
         <h1>Contact Me</h1>
-        <p>Let's Connect!</p>
+        <p>Have a question or an exciting project in mind? Feel free to reach out through the form below—I'll get back to you as soon as possible.</p>
+        <p style="font-weight: 600;">Let's Connect!</p>
     </header>
 
     <nav>
@@ -25,7 +27,7 @@
     <div class="container">
         <section>
             <div class="contact-form">
-                <form id="contactForm">
+                <form action="https://formsubmit.co/droidspiration.tech@gmail.com" method="POST">
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" id="name" name="name" required>
@@ -38,6 +40,8 @@
                         <label for="message">Message</label>
                         <textarea id="message" name="message" rows="5" required></textarea>
                     </div>
+                    <input type="hidden" name="_subject" value="New Contact Form Submission">
+                    <input type="hidden" name="_next" value="https://poojasngh432.github.io/contact.html?submitted=true">
                     <button type="submit" class="btn">Send Message</button>
                 </form>
             </div>
@@ -46,10 +50,22 @@
         <section>
             <h2>Connect With Me</h2>
             <div class="social-links">
-                <p>Email: <a href="mailto:singhpoojacontact@gmail.com">singhpoojacontact@gmail.com</a></p>
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/singhpooja432/" target="_blank">https://www.linkedin.com/in/singhpooja432/</a></p>
-                <p>GitHub: <a href="https://github.com/poojasngh432" target="_blank">https://github.com/poojasngh432</a></p>
-                <p>LeetCode: <a href="https://leetcode.com/u/shortcakeplush/" target="_blank">https://leetcode.com/u/shortcakeplush/</a></p>
+                <a href="mailto:singhpoojacontact@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+                <a href="https://www.linkedin.com/in/singhpooja432/" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/poojasngh432" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://leetcode.com/u/OptimisedDisposition" target="_blank" class="social-link">
+                    <i class="fas fa-code"></i>
+                    <span>LeetCode</span>
+                </a>
             </div>
         </section>
     </div>
@@ -59,12 +75,11 @@
     </footer>
 
     <script>
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            // Here you would typically handle the form submission
+        // Check if form was submitted
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('submitted') === 'true') {
             alert('Thank you for your message! I will get back to you soon.');
-            this.reset();
-        });
+        }
     </script>
 </body>
 </html> 
