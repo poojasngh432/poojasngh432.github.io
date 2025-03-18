@@ -45,15 +45,25 @@ nav {
     top: 0;
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
 }
 
 nav a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     padding: 0.5rem 1rem;
     margin: 0 0.5rem;
     border-radius: 4px;
-    transition: background-color 0.3s;
+    transition: background-color 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 400;
+    text-shadow: none;
+}
+
+nav a i {
+    font-size: 0.9rem;
 }
 
 nav a:hover {
@@ -219,14 +229,70 @@ h1, h2 {
 
 .achievements-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .achievement-card {
-    background: var(--accent-color);
-    padding: 1.5rem;
-    border-radius: 8px;
+    padding: 1rem;
+    position: relative;
+}
+
+.achievement-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    right: 10%;
+    height: 1px;
+    background-color: var(--accent-color);
+}
+
+.achievement-card:nth-last-child(-n+2)::after {
+    display: none;
+}
+
+.achievement-card:hover {
+    transform: translateY(-5px);
+}
+
+.achievement-card h3 {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.achievement-card p {
+    color: var(--light-text);
+    font-style: italic;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .achievements-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 0 1rem;
+    }
+    
+    .achievement-card {
+        padding: 0.75rem 0;
+    }
+    
+    .achievement-card::after {
+        left: 0;
+        right: 0;
+    }
+    
+    .achievement-card:last-child::after {
+        display: none;
+    }
+    
+    .achievement-card h3 {
+        font-size: 1.1rem;
+    }
 }
 
 .contact-form {
