@@ -280,34 +280,11 @@
     </footer>
 
     <div class="view-counter">
-        Views: <span id="viewCount">Loading...</span>
+        Views: <img src="https://visitor-badge.laobi.icu/badge?page_id=poojasngh432.github.io" alt="Visitor Count"/>
     </div>
 
     <script>
-        // View counter implementation
-        const updateViewCount = async () => {
-            try {
-                const response = await fetch('https://api.countapi.xyz/hit/poojasngh432.github.io/visits', {
-                    method: 'GET',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    }
-                });
-                
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                
-                const data = await response.json();
-                document.getElementById('viewCount').textContent = data.value;
-            } catch (error) {
-                console.error('Error fetching view count:', error);
-                document.getElementById('viewCount').textContent = 'Error';
-            }
-        };
-
-        // Call the function when the page loads
-        updateViewCount();
+        // Remove old counter code since we're using the badge now
     </script>
 </body>
 </html>

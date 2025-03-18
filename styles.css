@@ -342,6 +342,13 @@ h1, h2 {
     padding: 0.5rem 1rem;
     border-radius: 20px;
     font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.view-counter img {
+    margin-left: 0.25rem;
 }
 
 .social-links {
