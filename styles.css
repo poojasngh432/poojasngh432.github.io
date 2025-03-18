@@ -348,27 +348,34 @@ h1, h2 {
 }
 
 .social-link {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    padding: 0.75rem 1.5rem;
-    background: var(--accent-color);
-    color: var(--primary-color);
+    display: inline-block;
     text-decoration: none;
-    border-radius: 8px;
     transition: all 0.3s ease;
-    font-size: 1.1rem;
+    margin: 0 0.75rem;
 }
 
 .social-link:hover {
-    background: var(--primary-color);
-    color: white;
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .social-link i {
-    font-size: 1.3rem;
+    font-size: 2rem;
+}
+
+.social-link .fa-linkedin {
+    color: #0A66C2;
+}
+
+.social-link .fa-github {
+    color: #181717;
+}
+
+.social-link .fa-envelope {
+    color: #EA4335;
+}
+
+.social-link .fa-code {
+    color: #FFA116;
 }
 
 footer {
